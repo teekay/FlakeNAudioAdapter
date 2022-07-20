@@ -5,7 +5,13 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlakeNAudioAdapter", "FlakeNAudioAdapter\FlakeNAudioAdapter.csproj", "{5F3535BF-372B-46A2-8B44-A9A0EC7CD888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlakeReaderTestApp", "FlakeReaderTestApp\FlakeReaderTestApp.csproj", "{E4B2FC7F-A8BE-440F-B56D-89CA443264CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlakeReaderTestApp", "FlakeReaderTestApp\FlakeReaderTestApp.csproj", "{E4B2FC7F-A8BE-440F-B56D-89CA443264CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A230810-D8D4-42F4-9A89-6EFEE8CB5037}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

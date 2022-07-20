@@ -3,8 +3,7 @@ using CUETools.Codecs;
 using CUETools.Codecs.FLAKE;
 using NAudio.Wave;
 
-// ReSharper disable once CheckNamespace
-namespace Colladeo.FlakeNAudioAdapter
+namespace FlakeNAudioAdapter
 {
     public class FlakeFileReader : WaveStream
     {

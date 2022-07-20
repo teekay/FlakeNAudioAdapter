@@ -1,5 +1,5 @@
 ﻿using System;
-using Colladeo.FlakeNAudioAdapter;
+using FlakeNAudioAdapter;
 using NAudio.Wave;
 
 namespace FlakeReaderTestApp

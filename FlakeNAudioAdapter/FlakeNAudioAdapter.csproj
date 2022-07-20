@@ -4,7 +4,27 @@
     <RootNamespace>FlakeNAudioAdapter</RootNamespace>
     <AssemblyName>FlakeNAudioAdapter</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Tomáš Kohl</Authors>
+    <Description>An adapter that reads FLAC audio files using CUETools.Flake and makes it available to applications using the NAudio library.</Description>
+    <Copyright>Copyright © Tomáš Kohl 2015 - 2022</Copyright>
+    <PackageProjectUrl>https://github.com/teekay/FlakeNAudioAdapter</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>flac;audio;naudio</PackageTags>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CUETools.Codecs.FLAKE" Version="1.0.5" />
     <PackageReference Include="NAudio">

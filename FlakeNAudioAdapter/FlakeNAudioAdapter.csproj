@@ -12,8 +12,9 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageTags>flac;audio;naudio</PackageTags>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\README.md">
@@ -26,7 +27,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CUETools.Codecs.FLAKE" Version="1.0.5" />
+    <PackageReference Include="CUETools.Codecs.FLAKE-Reloaded" Version="1.0.1" />
     <PackageReference Include="NAudio">
       <Version>1.10.0</Version>
     </PackageReference>
